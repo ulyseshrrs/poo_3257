@@ -12,7 +12,7 @@ package ico.fes.poo;
 
 public class Automovil {
    private String marca;
-   private String subMarca;
+   public String subMarca;
    private int modelo;
    private String color;
     
@@ -28,12 +28,10 @@ public class Automovil {
    public int getModelo(){
        return this.modelo;
    }
-   public void setMarca (String mar){
-       if(mar>=Golf){
-           this.modelo=mar;
-       }else{
-           System.out.println("Ese modelo esta duera de rango");
-       }
+   public String setMarca (String mar){
+       return this.marca;
+       
+       
    }
    
     public void encender(){

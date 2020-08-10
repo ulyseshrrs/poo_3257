@@ -21,7 +21,6 @@ public class Sesion_5_agosto {
         Automovil miCarro=new Automovil();  /*objeto1*/
        // miCarro.marca="VW";
         miCarro.subMarca="Golf";
-        float x =miCarro.setMarca(mar)
         //miCarro.modelo=1990;
         //miCarro.color="Gris";
         miCarro.setModelo(1990);
